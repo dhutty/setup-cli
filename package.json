@@ -1,6 +1,6 @@
 {
-  "name": "setup-gh",
-  "version": "0.0.1",
+  "name": "setup-cli",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
     "all": "npm run lint && npm run prepare && npm run test"
   },
   "keywords": [],
-  "homepage": "https://github.com/github-developer/setup-gh",
+  "homepage": "https://github.com/dhutty/setup-cli",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github-developer/setup-gh.git"
+    "url": "git+https://github.com/dhutty/setup-cli.git"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
