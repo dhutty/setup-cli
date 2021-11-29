@@ -1,3 +1,3 @@
-If you discover a security issue in this repo, please submit it through the [GitHub Security Bug Bounty](https://hackerone.com/github)
+If you discover a security issue in this repo, please submit it by sending encrypted email to [dhutty@allgoodbits.org]: PGP public key available at https://keys.opengpg.org.
 
-Thanks for helping make GitHub Actions safe for everyone.
+Thanks for helping to make the Internet safer for everyone.

@@ -1,10 +1,20 @@
-name: setup-gh
-description: Setup GitHub CLI, gh, on GitHub Actions runners
+name: setup-cli
+description: Setup a CLI/binary, on GitHub Actions runners
 inputs:
-  version:
-    description: Version of GitHub CLI to install
+  cli:
+    description: The CLI/binary to install
+    required: true
+  hub:
+    description: 'Default is github.com, could be alternative such as a private GitHub Enterprise or gitlab.com, etc.'
     required: false
-    default: 1.2.0
+    default: 'github.com'
+  repo:
+    description: 'Default is this GITHUB_REPOSITORY, otherwise username/reponame'
+    required: false
+  version:
+    description: Version of the specified CLI to install
+    required: false
+    default: 1.0.0
 runs:
   using: node12
   main: dist/index.js
